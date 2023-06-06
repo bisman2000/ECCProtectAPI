@@ -1,0 +1,35 @@
+﻿@page
+@model AT150732.WebApp.Pages.HR.ViewEmployees
+@{
+}
+<div>
+    <h1> View Employees</h1>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Full name</td>
+                <td>Job name</td>
+                <td>ContactId</td>
+                <td>Address</td>
+                <td>Email</td>
+                <td>Phone</td>
+            </tr>
+        </thead>
+        <tbody>
+           
+            @foreach (var item in Model.Employees)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.FullName</td>
+                    <td>@item.JobName</td>
+                    <td>@item.Contact.Id</td>
+                    <td>@item.Contact.Address</td>
+                    <td>@item.Contact.Email</td>
+                    <td>@item.Contact.Phone</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

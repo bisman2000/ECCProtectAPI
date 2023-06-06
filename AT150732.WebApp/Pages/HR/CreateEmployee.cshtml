@@ -1,0 +1,73 @@
+﻿@page
+@model AT150732.WebApp.Pages.HR.CreateEmployee
+@{
+}
+<p>
+    <h3> create Employee</h3>
+</p>
+<class="container border" style="padding:20px">
+    <form method="post" asp-page-handler="CreateEmployee">
+        <div class="text-danger" asp-validation-summary="All"></div>
+
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="EmployeeDetailsModel.Address"></label>
+            </div>
+            <div class="col-5">
+                <input type="text" asp-for="EmployeeDetailsModel.Address" class="form-control" />
+            </div>
+            <span class="text-danger" asp-validation-for="EmployeeDetailsModel.Address"></span>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="EmployeeDetailsModel.Email"></label>
+            </div>
+            <div class="col-5">
+                <input type="email" asp-for="EmployeeDetailsModel.Email" class="form-control" />
+            </div>
+            <span class="text-danger" asp-validation-for="EmployeeDetailsModel.Email"></span>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="EmployeeDetailsModel.Phone"></label>
+            </div>
+            <div class="col-5">
+                <input type="text" asp-for="EmployeeDetailsModel.Phone" class="form-control" />
+            </div>
+            <span class="text-danger" asp-validation-for="EmployeeDetailsModel.Phone"></span>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="EmployeeDetailsModel.JobName"></label>
+            </div>
+            <div class="col-5">
+                <input type="text" asp-for="EmployeeDetailsModel.JobName" class="form-control" />
+            </div>
+            <span class="text-danger" asp-validation-for="EmployeeDetailsModel.JobName"></span>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="EmployeeDetailsModel.FullName"></label>
+            </div>
+            <div class="col-5">
+                <input type="text" asp-for="EmployeeDetailsModel.FullName" class="form-control" />
+            </div>
+            <span class="text-danger" asp-validation-for="EmployeeDetailsModel.FullName"></span>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-5">
+                <input type="submit" class="btn btn-primary" value="create" />
+            </div>
+        </div>
+    </form>
+ </class>
+    @if (ViewData["EmpCreateMess"]!= null)
+    {
+        <h2>status: @ViewData["EmpCreateMess"]</h2>
+    }
+

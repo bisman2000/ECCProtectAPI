@@ -1,0 +1,48 @@
+﻿@page
+@model AT150732.WebApp.Pages.HR.UpdateEmployeeModel
+@{
+}
+<p>
+    <h3> update Employee</h3>
+</p>
+<class="container border" style="padding:20px">
+    <form method="post">
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="EmployeeUpdate.Id"></label>
+            </div>
+            <div class="col-5">
+                <input type="number" asp-for="EmployeeUpdate.Id" class="form-control" />
+            </div>
+            <span class="text-danger" asp-validation-for="EmployeeUpdate.Id"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="EmployeeUpdate.FullName"></label>
+            </div>
+            <div class="col-5">
+                <input type="text" asp-for="EmployeeUpdate.FullName" class="form-control" />
+            </div>
+            <span class="text-danger" asp-validation-for="EmployeeUpdate.FullName"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="EmployeeUpdate.JobName"></label>
+            </div>
+            <div class="col-5">
+                <input type="tel" asp-for="EmployeeUpdate.JobName" class="form-control" />
+            </div>
+            <span class="text-danger" asp-validation-for="EmployeeUpdate.JobName"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-5">
+                <input type="submit" class="btn btn-primary" value="update" />
+            </div>
+        </div>
+    </form>
+</class>
+@if (ViewData["updateEmp"] != null)
+{
+    <h2>status: @ViewData["updateEmp"]</h2>
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AT150732.WebAPI.props" />
+</Project>

@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AT150732.WebApp
+build_property.RootNamespace = AT150732.WebApp
+build_property.ProjectDir = F:\Doan\AT15H\AT150732.WebApp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\Doan\AT15H\AT150732.WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/Account/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/HR/CreateEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSFJcQ3JlYXRlRW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/HR/DeleteEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSFJcRGVsZXRlRW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/HR/UpdateContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSFJcVXBkYXRlQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/HR/UpdateEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSFJcVXBkYXRlRW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/HR/ViewEmployees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSFJcVmlld0VtcGxveWVlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/Shared/_LoginStatusPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblN0YXR1c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Doan/AT15H/AT150732.WebApp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-e47a0ua7bh
